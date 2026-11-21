@@ -1,0 +1,48 @@
+{
+  "name": "opencode-novada",
+  "version": "0.1.0",
+  "description": "Novada plugin for OpenCode — adds the hosted Novada MCP server and a skill for web search, page extraction, cited research and structured platform data",
+  "type": "module",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "skills",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "novada",
+    "mcp",
+    "web-search",
+    "web-scraping",
+    "research",
+    "ai"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NovadaLabs/opencode-novada"
+  },
+  "homepage": "https://www.novada.com",
+  "author": {
+    "name": "Novada"
+  },
+  "engines": {
+    "opencode": "^2.0.0"
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "devDependencies": {
+    "@opencode/plugin": "^2.0.23",
+    "@opencode/schema": "^2.0.23",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
