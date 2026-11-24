@@ -1,4 +1,4 @@
-# opencode-novada
+# @novadalabs/opencode-novada
 
 [OpenCode](https://opencode.ai) plugin for [Novada](https://www.novada.com). It adds the hosted Novada MCP server and a skill that tells your agent when to use each Novada tool: web search, page extraction through anti-bot pages, cited multi-source research, and structured records from 14 platforms (Amazon, Google, LinkedIn, TikTok, YouTube, Walmart and more).
 
@@ -7,7 +7,7 @@ Requires OpenCode 2.
 ## Install
 
 ```bash
-opencode plugin add opencode-novada
+opencode plugin add @novadalabs/opencode-novada
 ```
 
 Or add it to `opencode.json` yourself:
@@ -15,7 +15,7 @@ Or add it to `opencode.json` yourself:
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugins": ["opencode-novada"]
+  "plugins": ["@novadalabs/opencode-novada"]
 }
 ```
 
@@ -34,7 +34,7 @@ The plugin adds a third-party hosted service to your OpenCode. To install only t
 {
   "plugins": [
     {
-      "package": "opencode-novada",
+      "package": "@novadalabs/opencode-novada",
       "options": { "mcp": false }
     }
   ]

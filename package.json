@@ -1,11 +1,15 @@
 {
-  "name": "opencode-novada",
+  "name": "@novadalabs/opencode-novada",
   "version": "0.1.0",
   "description": "Novada plugin for OpenCode — adds the hosted Novada MCP server and a skill for web search, page extraction, cited research and structured platform data",
   "type": "module",
   "main": "index.ts",
   "exports": {
     ".": "./index.ts"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "files": [
     "index.ts",
